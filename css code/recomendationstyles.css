@@ -113,8 +113,7 @@ ul {
     list-style: none;
 }
 
-
-  .footer {
+.footer {
     text-align: center;
     background-color: #55d6aa;
     color: black;
@@ -123,5 +122,6 @@ ul {
     bottom: 0;
     width: 100%;
   }
+  
 
 

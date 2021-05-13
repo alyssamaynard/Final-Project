@@ -74,7 +74,7 @@ nav a:hover::before {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
+    width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -107,11 +107,13 @@ input[type=text], select, textarea {
   }
  
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
     background-color: #55d6aa;
     color: black;
-    text-align: center;
+    height: 100px;
+    /*position: absolute; */
+    bottom: 0;
+    width: 100%;
   }
+  
+
