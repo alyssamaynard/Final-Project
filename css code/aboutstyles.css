@@ -69,6 +69,13 @@ nav a::before {
 nav a:hover::before {
         width: 100%;
  }
+ /* Image Code*/
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
  h1 {
     font-style: italic;
